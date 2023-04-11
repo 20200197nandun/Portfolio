@@ -10,7 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 a {
@@ -56,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #000000;
   color: #fff;
 }
 
@@ -76,7 +77,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #000000;
 }
 
 #preloader:before {
@@ -84,14 +85,14 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #ca0000;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
+  -webkit-animation: animate-preloader 5s linear infinite;
+  animation: animate-preloader 5s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -178,13 +179,13 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: #ffffff;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: #000000;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -411,6 +412,33 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+/* 
+#about {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/aboutme.JPG ") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  #about {
+    padding-left: 160px;
+  }
+}
+
+#about:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+*/
+
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -460,7 +488,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: #ffffff;
 }
 
 .skills .progress .skill .val {
@@ -476,7 +504,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #1658d2;
+  background-color: #0047AB;
 }
 
 /*--------------------------------------------------------------
@@ -509,7 +537,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #676767;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -798,7 +826,7 @@ section {
 
 .services .icon-box .icon svg path {
   transition: 0.5s;
-  fill: #f5f5f5;
+  fill: #000000;
 }
 
 .services .icon-box h4 {
@@ -819,7 +847,7 @@ section {
 }
 
 .services .icon-box:hover {
-  border-color: #fff;
+  border-color: #000000;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
@@ -983,7 +1011,8 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #000000;
+  
 }
 
 .contact .info i {
@@ -1012,7 +1041,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #728394;
+  color: #ffffff;
 }
 
 .contact .info .email,
@@ -1130,8 +1159,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #000000;
+  color: #ffffff;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
